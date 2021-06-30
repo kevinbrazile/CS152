@@ -1,0 +1,17 @@
+
+<%- include('bootheader') -%>
+  <div class="jumbotron">
+
+  <h1> Pomodoros </h1><br>
+  <h2>start working on a new pomodoro</h2><br>
+  <form method="post" action="/pomodoro">
+    <input type="text" name="startedAt" size="60"> startedAt <br>
+    <input type="text" name="goal" size="60"> goal <br>
+    <input type="text" name="result" size="60"> result <br>
+    <input type="text" name="completedAt" size="60"> completedAt <br>
+    <input type="submit" value="press when pomodoro is completed (about 30 minutes)">
+  </form>
+  </div>
+
+
+<%- include('bootfooter') -%>
